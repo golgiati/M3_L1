@@ -32,7 +32,7 @@ async function getSalesProducts() {
 }
 
 // Export
-module.exports = {getSalesProducts :getSalesProducts};
+// module.exports = {getSalesProducts :getSalesProducts};
 
 async function getUserData() {
     console.log('Connecting to SQL.... Cloud Server');
@@ -65,4 +65,7 @@ async function getUserData() {
 }
 
 // Export
-module.exports = {getUserData :getUserData};
+module.exports = {getSalesProducts :getSalesProducts,
+                getUserData :getUserData};
+
+//module.exports = {getUserData :getUserData};
